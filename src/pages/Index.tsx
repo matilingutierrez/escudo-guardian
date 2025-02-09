@@ -17,7 +17,7 @@ const Index = () => {
 
   const technicalFeatures = [
     "ElizaOS powered + home-made plugin",
-    "Discord integration",
+    "Discord integration", 
     "Easy to extend/add new checks",
     "Multisend/Batch transactions support",
   ];
@@ -33,23 +33,27 @@ const Index = () => {
     <div className="min-h-screen bg-gradient-to-b from-blue-50 to-blue-100">
       {/* Hero Section */}
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <section className="min-h-[70vh] flex flex-col items-center justify-center text-center relative">
+        <section className="min-h-[60vh] flex flex-col items-center justify-center text-center relative">
           <div className="float-animation mb-8">
             <Shield className="w-24 h-24 text-blue-600" />
           </div>
           <h1 className="text-4xl sm:text-6xl font-bold mb-6 bg-gradient-to-r from-blue-600 to-blue-400 bg-clip-text text-transparent">
             Escudo
           </h1>
-          <p className="text-lg sm:text-xl text-gray-600 mb-8 max-w-2xl">
+          <p className="text-lg sm:text-xl text-gray-600 mb-1 max-w-2xl">
             Security-focused AI agent for Safe multisig validation
           </p>
+          <div className="flex items-center justify-center pb-8 text-xs text-gray-500">
+            <span>Made with ❤️ for</span>
+            <img src="/safe.png" alt="Safe" className="h-6" />
+          </div>
           <div className="space-y-4">
             <Button 
               className="group bg-blue-600 hover:bg-blue-700"
               size="lg"
               onClick={() => window.open(discordLink, '_blank')}
             >
-              <Link className="mr-2 h-5 w-5" />
+              <img src="/discord.png" alt="Discord" className="h-4 mr-2" />
               Add to Discord
               <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
             </Button>
@@ -103,6 +107,9 @@ const Index = () => {
             </div>
           </div>
         </section>
+
+        {/* Made with love section */}
+        
       </div>
     </div>
   );
