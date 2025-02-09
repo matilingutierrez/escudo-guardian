@@ -16,24 +16,24 @@ const Index = () => {
   ];
 
   const technicalFeatures = [
-    "AI-powered transaction analysis",
-    "Real-time monitoring & alerts",
-    "Custom validation rules engine",
-    "Cross-chain compatibility",
+    "ElizaOS powered + home-made plugin",
+    "Discord integration",
+    "Easy to extend/add new checks",
+    "Multisend/Batch transactions support",
   ];
 
   const securityChecks = [
-    "Address poisoning detection",
-    "Smart contract audit integration",
-    "Malicious pattern recognition",
-    "Gas optimization checks",
+    "Address poisoning",
+    "Infinite approvals",
+    "Frontrunning protection",
+    "Darklisted addresses",
   ];
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-blue-50 to-blue-100">
       {/* Hero Section */}
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <section className="min-h-screen flex flex-col items-center justify-center text-center relative">
+        <section className="min-h-[70vh] flex flex-col items-center justify-center text-center relative">
           <div className="float-animation mb-8">
             <Shield className="w-24 h-24 text-blue-600" />
           </div>
