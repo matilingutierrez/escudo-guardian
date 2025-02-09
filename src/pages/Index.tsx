@@ -2,7 +2,7 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { CopyButton } from "@/components/ui/copy-button";
-import { Shield, ArrowRight, Check, User, Database, Link } from "lucide-react";
+import { Shield, ArrowRight, Check, User, SquareStack } from "lucide-react";
 
 const Index = () => {
   const discordLink = "https://discord.com/oauth2/authorize?client_id=1337424324746809415&permissions=8&integration_type=0&scope=bot";
@@ -12,7 +12,7 @@ const Index = () => {
     { title: "Access", description: "Easy to setup for any Safe multisig user", icon: User },
     { title: "Security", description: "Automated validation of every transaction", icon: Shield },
     { title: "Execution", description: "Signs and processes verified transactions", icon: Check },
-    { title: "Control", description: "Works seamlessly with existing signers", icon: Database },
+    { title: "Multi-chain", description: "Use it in all Safe's supported networks", icon: SquareStack },
   ];
 
   const technicalFeatures = [
